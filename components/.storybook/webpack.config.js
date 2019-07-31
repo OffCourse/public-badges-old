@@ -21,9 +21,5 @@ module.exports = async ({ config }) => {
     ]
   });
   config.resolve.extensions.push(".ts", ".tsx");
-  return {
-    ...config,
-    performance: { hints: false },
-    stats: { logging: "error", warnings: false }
-  };
+  return config;
 };

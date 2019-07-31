@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-storybook": "build-storybook -c .storybook -o public",
+    "build-storybook": "build-storybook --loglevel=error -c .storybook -o public",
     "build": "npm run build-storybook",
     "storybook": "start-storybook"
   },
